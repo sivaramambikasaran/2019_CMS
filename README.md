@@ -1,2 +1,2 @@
-# 2019_CMS
-Computer Modelling and Simulation, 2019
+# 2018_CMS
+Computer Modelling and Simulation Course
