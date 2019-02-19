@@ -1,0 +1,68 @@
+\documentclass{article}
+\usepackage{sivaSAFRANshort}
+\chead{Computer Modelling and Simulation: Assignment $4$}
+\begin{document}
+	\begin{enumerate}
+		\item
+		Consider the Vandermonde matrix $V$, i.e.,
+		$$V = \begin{bmatrix}
+		1 & x_0 & x_0^2 & x_0^3 & \cdots & x_0^n\\
+		1 & x_1 & x_1^2 & x_1^3 & \cdots & x_1^n\\
+		1 & x_2 & x_2^2 & x_2^3 & \cdots & x_2^n\\
+		1 & x_3 & x_3^2 & x_3^3 & \cdots & x_3^n\\
+		\vdots & \vdots & \vdots & \vdots & \ddots & \vdots\\
+		1 & x_n & x_n^2 & x_n^3 & \cdots & x_n^{n}
+		\end{bmatrix}$$
+		\begin{itemize}
+			\item
+			Show that $\det(V)$ is a polynomial in the variables $x_0,x_1,\ldots,x_n$ with degree $\dfrac{n(n+1)}2$.
+			\item
+			Show that if $x_i=x_j$ for $i \neq j$, then $\det(V) = 0$.
+			\item
+			Hence, conclude that $(x_i-x_j)$ is a factor of $\det(V)$.
+			\item
+			Hence, conclude that $\det(V) = C \left(\dprod_{1 \leq j <i \leq n} \left(x_i-x_j\right) \right)$, where $C$ is a constant.
+			\item
+			Compare the coefficient of $x_1x_2^2x_3^3 \cdots x_n^n$ to conclude that $C=1$.
+		\end{itemize}
+		\item
+		Consider uniformly spaced nodes ($x_k = -1+(2k+1)/n$ for $k \in \{0,1,2,\ldots,n-1\}$) and Chebyshev nodes ($y_k= \sin(\pi x_k/2)$ for $k \in \{0,1,2,\ldots,n-1\}$). For both these sets of nodes perform the following:
+		\begin{itemize}
+			\item
+			Plot the condition number of these Vandermonde matrices as a function of $n$. (Use semilogy to plot, i.e., the $Y$ axis is the log(condition number).) Comment on how the condition number scales with $n$.
+			\item
+			Consider the function $f(x) = \dfrac1{1+25x^2}$. This is called the Runge function. For $n \in \{5,10,20,50\}$, obtain and plot the interpolant by
+			\begin{itemize}
+				\item
+				Solving the linear system
+				\item
+				Using fundamental Lagrange polynomials, i.e., $\ell_j(x) = \dfrac{\dprod_{k \neq j} (x-x_k)}{\dprod_{k \neq j}(x_j-x_k)}$
+			\end{itemize}
+			Comment on the interpolant you observe.
+			\item
+			What is the cost of evaluating the interpolant at a point $x$ as a function of $n$?
+			\item
+			Based on the above observation, which method would you prefer for polynomial approximation?
+		\end{itemize}
+		\item
+			Show that for any set of interpolation nodes, we have
+			$$\dsum_{j=0}^n x_j^m \ell_j(x) = x^m$$
+			for all $m \in \{0,1,2,\ldots,n\}$.
+		\item
+		Recall that a function $f(x)$ on $[-1,1]$ is $\alpha$-H\"{o}lder continuous if for all $x,y \in [-1,1]$, we have $\abs{ f(x)-f(y)} \leq C \abs{x-y}^{\alpha}$ for some $\alpha,C \in \Rb^+$ and is Lipschitz continuous if $\alpha=1$. We will denote $\alpha$-H\"{o}lder continuous functions on $[-1,1]$ as $H^{\alpha}([-1,1])$.
+		
+		Prove that if $\alpha < \beta$, then $H^{\alpha}([-1,1]) \supset H^{\beta}([-1,1])$.
+
+		\item
+		Give examples (with proofs as to why the examples are correct) of function on $[-1,1]$ for the following:
+		\begin{itemize}
+			\item
+			Continuous but not H\"{o}lder continuous for any $\alpha > 0$
+			\item
+			Lipschitz but not differentiable
+			\item
+			Differentiable but its derivative is not continuous
+		\end{itemize}
+
+	\end{enumerate}
+\end{document}
