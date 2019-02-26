@@ -8,3 +8,5 @@ Computer Modelling and Simulation Course
 [Chapter 2](https://nbviewer.jupyter.org/github/sivaramambikasaran/2019_CMS/blob/master/Chapters/Chapter_2.ipynb)
 
 [Chapter 3](https://nbviewer.jupyter.org/github/sivaramambikasaran/2019_CMS/blob/master/Chapters/Chapter_3.ipynb)
+
+[Univariate Interpolation](https://github.com/sivaramambikasaran/2019_CMS/blob/master/Chapters/Univariate_Interpolation.ipynb)
