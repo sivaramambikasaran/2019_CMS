@@ -1,0 +1,42 @@
+\documentclass{article}
+\usepackage{sivaSAFRANshort}
+\chead{Computer Modelling and Simulation: Assignment $5$}
+\begin{document}
+	\begin{enumerate}
+		\item
+		Monic Legendre polynomials on $[-1,1]$ are defined as follows:
+		\begin{align}
+			q_0(x) & = 1\\
+			q_1(x) & = x
+		\end{align}
+		$q_n(x)$ is a monic polynomial of degree $n$ such that $\dint_{-1}^1 q_n(x) q_m(x)dx = 0$ for all $m \neq n$.
+		\begin{itemize}
+			\item
+			Show that the Legendre polynomials satisfy the recurrence
+			$$q_{n+1} = xq_n - \bkt{\dfrac{n^2}{4n^2-1}}q_{n-1}$$
+			\item
+			Prove that if $p(x)$ is a monic polynomial of degree $n$ minimizing $\magn{p(x)}_2^2 = \dint_{-1}^1 p^2(x)dx$, then $p(x) = q_n(x)$. Hence, conclude that Legendre nodes (roots of the Legendre polynomial) minimize $\dint_{-1}^1\bkt{\dprod_{k=0}^n \bkt{x-x_k}}^2 dx$.
+			\item
+			Consider the Runge function $f(x) = \dfrac1{1+25x^2}$. Interpolate the Runge function using the roots of the Legendre polynomial of degree $n$. Plot the error as a function of $n \in \{3,4,5,6,\ldots,21\}$.
+		\end{itemize}
+		\item
+		The Chebyshev polynomials of the first kind are defined as:
+		$$T_n(x) = \cos(n \arccos(x))$$
+		\begin{itemize}
+			\item
+			Show that the Chebyshev polynomials of the first kind satisfy the recurrence:
+			$$T_{n+1} = 2xT_n - T_{n-1}$$
+			with $T_0 = 1$ and $T_1 = x$.
+			\item
+			Show that $T_n(x)$ is a polynomial of degree $n$ with leading coefficient as $2^{n-1}$ for $n \geq 1$.
+			\item
+			All zeros of $T_{n+1}(x)$ are in the interval $[-1,1]$ and given by $x_k = \cos\bkt{\dfrac{2k+1}{2n+2}\pi}$, where $k \in \{0,1,2,\ldots,n\}$.
+			\item
+			Conclude that $T_n(x)$ alternates between $\pm1$ exactly $n+1$ times.
+			\item
+			Show that $\abs{\dprod_{k=0}^n \bkt{x-x_k}} \leq \dfrac1{2^n}, \,\,\,\,\, \forall x \in [-1,1]$.
+			\item
+			For any choice of nodes $\{y_k\}_{k=0}^n$, consider the polynomial $P_{n+1}(x) = \dprod_{k=0}^n \bkt{x-y_k}$ and look at $F(x) = P_{n+1}(x) - \dfrac{T_{n+1}(x)}{2^n}$. If $\abs{P_{n+1}(x)} \leq \dfrac1{2^n}$, show that $F(x)$ alternates in sign $n+2$ on $[-1,1]$. Hence, conclude that $F(x)$ has to be identically zero and therefore conclude that Chebyshev nodes minimizes $\max_{x \in [-1,1]}\abs{\dprod_{k=0}^n \bkt{x-x_k}}$.
+		\end{itemize}
+	\end{enumerate}
+\end{document}
