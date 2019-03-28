@@ -1,0 +1,73 @@
+\documentclass{article}
+\usepackage{sivaSAFRANshort}
+\chead{Computer Modelling and Simulation: Assignment $7$}
+\begin{document}
+	\begin{enumerate}
+		\item
+		In class, in the proof of the Euler-Maclaurin formula, we left the following as an exercise.
+		$$\dint_a^b \dfrac{B_{2m+2}(\{t\})}{(2m+2)!} g^{(2)}(t)dt = \dint_a^b \dfrac{B_{2m}(\{t\})}{(2m)!} g(t)dt + \dfrac{b_{2m+2}}{(2m+2)!} \bkt{g'(b)-g'(a)}$$
+		Use integration by parts to prove the above. Note that $B_k(x)$ are the Bernoulli polynomials and $\{t\}$ is the fractional part of $t$.
+		\item
+		In class, we obtained that
+		$$n! \sim C \sqrt{n} \bkt{\dfrac{n}{e}}^n, \,\,\,\,\,\, \bkt{\spadesuit}$$
+		The notation $f(n) \sim g(n)$ means that $\lim_{n \to \infty} \dfrac{f(n)}{g(n)} = 1$. In this exercise, we will obtain $C$ by following the sequence of steps.
+		\begin{itemize}
+			\item
+			Show that
+			$$I_n=\dint_0^{\pi/2} \sin^{n}(x)dx = \begin{cases}
+			\dfrac{\pi}{2^{2n+1}} \dbinom{2n}n & \text{ if $n$ is even}\\
+			\dfrac{2^{2n}}{2n+1} \dfrac1{\dbinom{2n}n} & \text{ if $n$ is odd}\\
+			\end{cases}$$
+			\item
+			Show that
+			$$\lim_{n \to \infty}\dfrac{I_{2n-1}}{I_{2n+1}} = 1$$
+			\item
+			Prove that $I_n$ is a monotone decreasing sequence, i.e.,
+			$$I_{2n+1} < I_{2n} < I_{2n-1}$$
+			\item
+			Conclude that
+			$$\lim_{n \to \infty}\dfrac{I_{2n}}{I_{2n+1}} = 1$$
+			\item
+			Hence, conclude that
+			$$\dbinom{2n}n \sim \dfrac{4^n}{\sqrt{n \pi}}$$
+			\item
+			Expand the central binomial coefficient and derive that $C = \sqrt{2\pi}$ using $\bkt{\spadesuit}$.
+		\end{itemize}
+		\item
+		Let $I = \dint_0^1 \exp\bkt{x^2}dx$. The exact value of the integral accurate upto $16$ digits is $1.46265174590718161$. Compute the integral using the following methods by sub-dividing $[0,1]$ into $N \in \{2,4,8,16,32,64,128,256,512,1024\}$ panels. Plot the decay of the absolute error as a function of $N$ on a log-log plot.
+		\begin{itemize}
+			\item
+			Midpoint rule
+			\item
+			Trapezoidal rule
+			\item
+			Trapezoidal rule with end point correction using the first derivative
+			\item
+			Trapezoidal rule with end point correction using the first and second derivative
+		\end{itemize}
+		Repeat the same using Gauss Legendre quadrature with $N \in \{2,3,4,\ldots,51\}$ and plot the absolute error as a function of $N$ on a log-log plot. For an accuracy of $10^{-12}$, report the number of nodes required by
+		\begin{itemize}
+			\item
+			Midpoint rule
+			\item
+			Trapezoidal rule
+			\item
+			Trapezoidal rule with end point correction using the first derivative
+			\item
+			Trapezoidal rule with end point correction using the first and second derivative
+			\item
+			Gauss Legendre quadrature
+		\end{itemize}
+		\item
+		Evaluate
+		$$I = \dint_0^2 \dfrac{e^{-x}}{\sqrt{x}}dx$$
+		using the following methods
+		\begin{itemize}
+			\item
+			Use the midpoint rule to avoid the singularity of the integrand at $x=0$
+			\item
+			Make a change of variable $x=t^2$ and again use the midpoint rule to evaluate the resulting integral
+		\end{itemize}
+		Compare the accuracy of the two methods by plotting the error as a function of $N$ (number of panels) on a lo-log scale, where $N \in \{2,4,8,16,32,64,128,256,512,1024\}$.
+	\end{enumerate}
+\end{document}
