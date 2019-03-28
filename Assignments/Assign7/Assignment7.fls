@@ -320,6 +320,7 @@ INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/SAFRAN_Logo_short.png
 INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/SAFRAN_Logo_short.png
 INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/SAFRAN_Logo_short.png
 INPUT /usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm
 INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Sanskrit_watermark.pdf
 INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Sanskrit_watermark.pdf
 INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Ambikasaran_Sanskrit.pdf
@@ -329,11 +330,12 @@ INPUT /usr/local/texlive/texmf-local/tex/latex/LaTeX_style/SAFRAN_Logo_short.png
 INPUT Assignment7.aux
 INPUT ./Assignment7.out
 INPUT ./Assignment7.out
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/velthuis/dvng10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmex10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb

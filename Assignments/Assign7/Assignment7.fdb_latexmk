@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1553685189 "Assignment7.tex" "Assignment7.pdf" "Assignment7" 1553760635
+["pdflatex"] 1553781032 "Assignment7.tex" "Assignment7.pdf" "Assignment7" 1553781056
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1480098668 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1480098668 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -18,10 +18,12 @@
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/lmsy10.tfm" 1480098712 1308 02cc510f9dd6012e5815d0c0ffbf6869 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/lmsy5.tfm" 1480098712 1296 54ed1a711e2303d5282575278e3620b0 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/lmsy7.tfm" 1480098712 1304 32f22a15acc296b2a4e15698403dcb88 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmbx10.tfm" 1480098712 11880 35fcf136a2198418dfc53c83e9e2a07f ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmr10.tfm" 1480098712 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmr17.tfm" 1480098712 11948 fa976674f030491ad35532a8a1e37325 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmr5.tfm" 1480098712 11804 aefb10c002e6492c25236524a447f969 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/lm/rm-lmr7.tfm" 1480098712 11852 5a9022f105fd1ee2797df861e79ae9a0 ""
+  "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmbx10.pfb" 1480098742 121021 1bf809ce4a594679006bd72263eba59b ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmex10.pfb" 1480098742 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi10.pfb" 1480098742 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "/usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmmi7.pfb" 1480098742 30789 be3ebdf20b6442cc4aaf81a81e17daf4 ""
@@ -208,11 +210,11 @@
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Ambikasaran_Sanskrit.pdf" 1420680052 6614 56fccf2a982ad1d5e353277539769a47 ""
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Sanskrit_watermark.pdf" 1422398767 6635 dd3b8750fd27b1effc6cb5269a55d0df ""
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/sivaSAFRANshort.sty" 1523342837 3026 ac5e07d482c77486f323b7e57a32d297 ""
-  "Assignment7.aux" 1553685190 699 3b0b1034aaf0dece7590714f6deffef5 ""
-  "Assignment7.out" 1553685189 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Assignment7.tex" 1553685188 3206 36e00b8cc59dba1c5f3f7ff692b24a4d ""
+  "Assignment7.aux" 1553781033 699 3b0b1034aaf0dece7590714f6deffef5 ""
+  "Assignment7.out" 1553781033 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Assignment7.tex" 1553781031 3808 605d1277f781fd3ed43c7015a49aadba ""
   (generated)
-  "Assignment7.pdf"
-  "Assignment7.log"
-  "Assignment7.aux"
   "Assignment7.out"
+  "Assignment7.pdf"
+  "Assignment7.aux"
+  "Assignment7.log"

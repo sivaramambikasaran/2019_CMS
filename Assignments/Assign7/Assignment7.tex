@@ -68,6 +68,14 @@
 			\item
 			Make a change of variable $x=t^2$ and again use the midpoint rule to evaluate the resulting integral
 		\end{itemize}
-		Compare the accuracy of the two methods by plotting the error as a function of $N$ (number of panels) on a lo-log scale, where $N \in \{2,4,8,16,32,64,128,256,512,1024\}$.
+		Compare the accuracy of the two methods by plotting the error as a function of $N$ (number of panels) on a log-log scale, where $N \in \{2,4,8,16,32,64,128,256,512,1024\}$.
+		\item
+		Prove that the error due to Hermite interpolation as discussed in class is given by
+		$$f(x) - p_{2n+1}(x) = \dfrac{f^{2n+2}(\xi_x)}{(2n+2)!} \dprod_{j=0}^n \bkt{x-x_j}^2$$
+		for some $\xi_x$ in the interpolating interval. (\textbf{HINT}: The proof is extremely similar to the proof we gave for Lagrange interpolation)
+		\item
+		\textbf{Error estimate of Gaussian quadrature}: Hence, prove that
+		$$\dint_{-1}^1 f(x) dx - \dsum_{i=0}^{n}w_i f(x_i) = \dfrac{f^{(2n)}(\xi)}{(2n)!} \dint_{-1}^1 q_n^2(x)dx$$
+		for some $\xi \in (-1,1)$ and $q_n$ is the monic Legendre polynomial of degree $n$.
 	\end{enumerate}
 \end{document}
