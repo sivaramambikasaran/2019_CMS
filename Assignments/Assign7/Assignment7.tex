@@ -15,8 +15,8 @@
 			\item
 			Show that
 			$$I_n=\dint_0^{\pi/2} \sin^{n}(x)dx = \begin{cases}
-			\dfrac{\pi}{2^{2n+1}} \dbinom{2n}n & \text{ if $n$ is even}\\
-			\dfrac{2^{2n}}{2n+1} \dfrac1{\dbinom{2n}n} & \text{ if $n$ is odd}\\
+			\dfrac{\pi}{2^{2k+1}} \dbinom{2k}k & \text{ if $n=2k$}\\
+			\dfrac{2^{2k}}{2k+1} \dfrac1{\dbinom{2k}k} & \text{ if $n=2k+1$}\\
 			\end{cases}$$
 			\item
 			Show that
@@ -43,7 +43,7 @@
 			\item
 			Trapezoidal rule with end point correction using the first derivative
 			\item
-			Trapezoidal rule with end point correction using the first and second derivative
+			Trapezoidal rule with end point correction using the first and third derivatives
 		\end{itemize}
 		Repeat the same using Gauss Legendre quadrature with $N \in \{2,3,4,\ldots,51\}$ and plot the absolute error as a function of $N$ on a log-log plot. For an accuracy of $10^{-12}$, report the number of nodes required by
 		\begin{itemize}
@@ -54,7 +54,7 @@
 			\item
 			Trapezoidal rule with end point correction using the first derivative
 			\item
-			Trapezoidal rule with end point correction using the first and second derivative
+			Trapezoidal rule with end point correction using the first and third derivatives
 			\item
 			Gauss Legendre quadrature
 		\end{itemize}
