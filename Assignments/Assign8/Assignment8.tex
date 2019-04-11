@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{sivaSAFRANshort}
+\chead{Computer Modelling and Simulation: Assignment $8$}
+\begin{document}
+	\begin{enumerate}
+		\item
+		Runge Kutta methods are higher order multi-step explicit methods that give better accuracy and stability than Euler Explicit methods. In this exercise, you will be deriving Runge Kutta methods of order $2$ and order $4$ (from here on will be called as RK2 and RK4).
+		\begin{itemize}
+			\item
+			RK2 method:
+			$$y_{n+1} = y_n + \gamma_1 k_1 + \gamma_2 k_2$$
+			where $k_1 = h f\bkt{t_n,t_n}$ and $k_2 = h f\bkt{y_n+\beta k_1, t_n + \alpha h}$. Using Taylor series, determine the relationships that $\alpha, \beta,\gamma_1,\gamma_2$ need to satisfy to ensure highest order of accuracy for the method. Find the region of stability in the complex plane.
+			\item
+			RK4 method:
+			$$y_{n+1} = y_n + \gamma_1 k_1 + \gamma_2 k_2 + \gamma_3 k_3 + \gamma_4 k_4$$
+			where
+			\begin{align}
+				k_1 & = h f\bkt{t_n,t_n}\\
+				k_2 & = h f\bkt{y_n+\beta_{21} k_1, t_n + \alpha_1 h}\\
+				k_3 & = h f\bkt{y_n+\beta_{31} k_1+\beta_{32} k_2, t_n + \alpha_2h}\\
+				k_4 & = h f\bkt{y_n+\beta_{41} k_1+\beta_{42} k_2+\beta_{43} k_3, t_n + \alpha_3 h}
+			\end{align}
+			Using Taylor series, determine the relationships that $\alpha_i, \beta_i, \gamma_i$ need to satisfy to ensure highest order of accuracy for the method. If it is given that $\alpha_1 = \alpha_2 = 1/2$, $\alpha_3=1$, $\beta_{21}=\beta_{32}=1/2$ and $\beta_{43}=1$, determine the rest of the constants. Find the region of stability in the complex plane.
+		\end{itemize}
+		\item
+		Recall that the governing equation for a simple pendulum in the absence of any damping effects subject to small osciallations is given by
+		$$\dfrac{d^2 \theta}{dt^2} + \dfrac{g}{\ell}\theta = 0$$
+		where $l$ is the length of the pendulum and $g$ is the acceleration due to gravity, $\theta(0) = \theta_0$ and $\left. \dfrac{d\theta}{dt} \right \vert_{t=0} = 0$. Assume $\ell=g$, and $\theta_0 = \pi/4$. Solve for the unkown $\theta$ using
+		\begin{itemize}
+			\item
+			Euler Explicit (determine the maximum $\delta t$ based on stability)
+			\item
+			Euler Implicit
+			\item
+			Trapezoidal
+			\item
+			RK2 (determine the maximum $\delta t$ based on stability)
+			\item
+			RK4 (determine the maximum $\delta t$ based on stability)
+		\end{itemize}
+		\item
+		Repeat the above by deriving the governing equation for large amplitude oscillations of the simple pendulum. You may again assume that $\theta_0=\pi/4$ and $\ell=g$. Are the Euler implicit and Trapezoidal methods still unconditionally stable?
+	\end{enumerate}
+\end{document}
