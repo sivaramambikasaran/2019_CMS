@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1557465174 "Assignment9.tex" "Assignment9.pdf" "Assignment9" 1557465241
+["pdflatex"] 1557813624 "Assignment9.tex" "Assignment9.pdf" "Assignment9" 1557813625
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc" 1480098668 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc" 1480098668 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc" 1480098668 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -209,11 +209,11 @@
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Ambikasaran_Sanskrit.pdf" 1420680052 6614 56fccf2a982ad1d5e353277539769a47 ""
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/Sivaram_Sanskrit_watermark.pdf" 1422398767 6635 dd3b8750fd27b1effc6cb5269a55d0df ""
   "/usr/local/texlive/texmf-local/tex/latex/LaTeX_style/sivaSAFRANshort.sty" 1523342837 3026 ac5e07d482c77486f323b7e57a32d297 ""
-  "Assignment9.aux" 1557465175 1225 eaa46a4b64e36ab996c5e97927f4ed9d ""
-  "Assignment9.out" 1557465175 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "Assignment9.tex" 1557465174 5680 8472aef8d9c7c7cb8f475688cb1aa307 ""
+  "Assignment9.aux" 1557813625 1225 eaa46a4b64e36ab996c5e97927f4ed9d ""
+  "Assignment9.out" 1557813624 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "Assignment9.tex" 1557813623 5681 8657c666381337ed6d833afe9bc6ff13 ""
   (generated)
-  "Assignment9.pdf"
-  "Assignment9.out"
   "Assignment9.aux"
   "Assignment9.log"
+  "Assignment9.out"
+  "Assignment9.pdf"
